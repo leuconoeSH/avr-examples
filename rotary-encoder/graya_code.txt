@@ -1,0 +1,33 @@
+Clockwise direction (CW):
+
+Pin A: 1 1 0 0
+Pin B: 0 1 1 0
+
+Gray	DEC
+10		2
+11		3
+01		1
+00		0
+
+
+----------------------------------------------
+Counter Clock Wise direction (CCW):
+Pin A: 1 1 0 0
+Pin B: 1 0 0 1
+
+Gray	DEC
+11		3
+10		2
+00		0
+01		1
+
+----------------------------------------------
+Low-pas RC filter calculation 
+1nF   = 0.000000001F
+100nF = 0.0000001F
+1uF   =	0.000001F
+
+f = 1/2pi*R*C
+
+For 10k resistor and 100nF capacitor: 
+f = 1 / 2*3.1415*10000*0.0000001 ~= 159.2Hz
